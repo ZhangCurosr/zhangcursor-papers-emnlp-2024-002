@@ -4,5 +4,30 @@
  "title": "QUDSELECT-Selective-Decoding-for-Questions-Under-Discussion",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:39:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/402ce238-49e3-4abe-85f2-600b2589dbb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/402ce238-49e3-4abe-85f2-600b2589dbb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:26:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "QUD parsing",
+    "selective decoding",
+    "discourse structure",
+    "instruction tuning",
+    "question generation",
+    "automated evaluation"
+   ],
+   "field": "话语结构解析与自然语言理解",
+   "innovations": [
+    "将QUD解析重构为联合指令调优任务以替代流水线方法",
+    "选择性解码策略结合三标准无训练评分器提升候选质量",
+    "基于专家标注微调的自动化QUD评估器"
+   ],
+   "benchmarks": [
+    "DCQA",
+    "QUDEVAL"
+   ]
+  }
+ }
 }

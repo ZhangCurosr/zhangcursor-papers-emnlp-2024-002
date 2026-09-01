@@ -4,5 +4,32 @@
  "title": "QUITE-Quantifying-Uncertainty-in-Natural-Language-Text-in-Ba",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:39:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/118fc315-f657-4556-ba1e-303c802d8e95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/118fc315-f657-4556-ba1e-303c802d8e95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:27:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "贝叶斯推理",
+    "神经符号方法",
+    "不确定性建模",
+    "ProbLog",
+    "大语言模型",
+    "因果推理",
+    "WEP"
+   ],
+   "field": "自然语言推理与概率图模型",
+   "innovations": [
+    "首次构建含分类变量的贝叶斯推理自然语言数据集 QUITE，支持数值与 WEP 双版本前提",
+    "首次对 LLM 进行语义解析到 ProbLog 的微调，神经符号方法在所有推理类型上超越纯 LLM",
+    "显式区分并评估因果/证据/解释排除三种贝叶斯推理类型，揭示 LLM 在逆向推理上的系统性失败"
+   ],
+   "benchmarks": [
+    "QUITE",
+    "CLADDER",
+    "BLInD"
+   ]
+  }
+ }
 }

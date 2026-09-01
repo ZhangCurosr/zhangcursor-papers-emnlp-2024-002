@@ -4,5 +4,10 @@
  "title": "Predicate-Debiasing-in-Vision-Language-Models-Integration-fo",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e56bdffd-e91f-4c5f-b9d2-01b3fb196551.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e56bdffd-e91f-4c5f-b9d2-01b3fb196551.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:26:55",
+  "chunks": 1
+ }
 }

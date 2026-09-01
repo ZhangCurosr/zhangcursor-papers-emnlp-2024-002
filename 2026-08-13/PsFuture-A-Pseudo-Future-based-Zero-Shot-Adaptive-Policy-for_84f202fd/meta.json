@@ -4,5 +4,29 @@
  "title": "PsFuture-A-Pseudo-Future-based-Zero-Shot-Adaptive-Policy-for",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1a6c1ef4-6791-460e-8dc5-5074b288a85d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1a6c1ef4-6791-460e-8dc5-5074b288a85d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:26:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "同步机器翻译",
+    "零样本策略",
+    "读写策略",
+    "伪未来信息",
+    "Prefix-to-Full训练"
+   ],
+   "field": "同步机器翻译",
+   "innovations": [
+    "首个零样本自适应读写策略PsFuture，无需额外训练即可自主决策",
+    "提出P2F训练策略使离线Transformer适配同步翻译场景"
+   ],
+   "benchmarks": [
+    "WMT2022 Zh-En",
+    "WMT15 De-En",
+    "IWSLT15 En-Vi"
+   ]
+  }
+ }
 }
