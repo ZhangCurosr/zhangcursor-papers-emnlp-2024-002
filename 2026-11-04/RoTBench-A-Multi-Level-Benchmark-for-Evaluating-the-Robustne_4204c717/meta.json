@@ -4,5 +4,30 @@
  "title": "RoTBench-A-Multi-Level-Benchmark-for-Evaluating-the-Robustne",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-11-04 21:14:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7360f3c3-bd43-48e3-8105-d6099b2ec194.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7360f3c3-bd43-48e3-8105-d6099b2ec194.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:28:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工具学习",
+    "鲁棒性评估",
+    "大语言模型",
+    "噪声注入",
+    "函数调用",
+    "基准测试"
+   ],
+   "field": "大语言模型工具学习与鲁棒性评估",
+   "innovations": [
+    "提出RoTBench五级噪声环境基准，覆盖工具选择/参数识别/内容填充三阶段鲁棒性评估",
+    "揭示GPT模型噪声纠正能力在轻微噪声下反而损害鲁棒性的悖论现象",
+    "提出RoTTuning训练方法，通过环境多样性增强显著提升模型鲁棒性（平均提升16.10分）"
+   ],
+   "benchmarks": [
+    "RoTBench",
+    "ToolEyes"
+   ]
+  }
+ }
 }

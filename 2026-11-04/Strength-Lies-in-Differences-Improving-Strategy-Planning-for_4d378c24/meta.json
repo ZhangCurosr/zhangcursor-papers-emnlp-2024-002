@@ -4,5 +4,31 @@
  "title": "Strength-Lies-in-Differences-Improving-Strategy-Planning-for",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-11-04 21:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7330a87c-8586-4ea9-9b2d-cc2b887ca118.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7330a87c-8586-4ea9-9b2d-cc2b887ca118.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非协作对话",
+    "策略规划",
+    "用户感知",
+    "基于种群的训练",
+    "心智理论",
+    "强化学习",
+    "大语言模型"
+   ],
+   "field": "对话系统与智能体",
+   "innovations": [
+    "提出用户感知的策略规划模块，利用心智理论显式建模用户心理状态和未来行为",
+    "设计基于种群的训练范式，使用40个多样化用户模拟器进行RL训练以提升泛化能力",
+    "构建系统性评估协议，首次量化分析LLM代理在不同用户人格下的策略适应性缺陷"
+   ],
+   "benchmarks": [
+    "Craigslist-Bargain",
+    "PersuasionForGood"
+   ]
+  }
+ }
 }

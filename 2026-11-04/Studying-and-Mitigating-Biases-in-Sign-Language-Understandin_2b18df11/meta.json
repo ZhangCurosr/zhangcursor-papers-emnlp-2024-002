@@ -4,5 +4,32 @@
  "title": "Studying-and-Mitigating-Biases-in-Sign-Language-Understandin",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-11-04 21:04:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a02c600c-810d-42c9-8d6b-897383e6ef57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a02c600c-810d-42c9-8d6b-897383e6ef57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:29:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手语识别",
+    "偏见分析",
+    "去偏策略",
+    "ASL Citizen",
+    "公平性",
+    "视频理解",
+    "加权重采样"
+   ],
+   "field": "多模态手语处理公平性",
+   "innovations": [
+    "揭示视频级别特征（BRISQUE质量、签名速度）比人口统计特征更能预测手语识别准确率",
+    "提出基于视频质量的加权重采样去偏策略，在提升准确率的同时缩小性别性能差距",
+    "首次系统分析crowd-sourced手语数据集的多维度偏见并开源参与者人口统计数据"
+   ],
+   "benchmarks": [
+    "ASL Citizen",
+    "ST-GCN baseline",
+    "I3D baseline"
+   ]
+  }
+ }
 }

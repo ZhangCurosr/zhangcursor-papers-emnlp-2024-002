@@ -4,5 +4,30 @@
  "title": "Surveying-the-Dead-Minds-Historical-Psychological-Text-Analy",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-11-04 21:26:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/917fb77e-c3b4-41fc-996e-a479c95f81b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/917fb77e-c3b4-41fc-996e-a479c95f81b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "historical psychology",
+    "classical Chinese NLP",
+    "contextualized construct representation",
+    "indirect supervised learning",
+    "contrastive learning",
+    "cross-lingual questionnaire conversion"
+   ],
+   "field": "历史心理学与低资源文本分析",
+   "innovations": [
+    "提出CCR管道，将心理测量问卷与上下文语言模型结合，无需预设词典即可量化文言文中心理构造",
+    "设计CQC跨语言转换流程，利用QuoteR将英文问卷映射为文言文引文",
+    "构建首个中文历史心理学语料库C-HI-PSY并采用标题伪标签的间接监督对比学习微调"
+   ],
+   "benchmarks": [
+    "C-HI-PSY (STS/Easy, STS/Hard, QIC, PM)",
+    "Song Dynasty officials' attitudes toward Wang Anshi reforms (traditionalism & authority correlation)"
+   ]
+  }
+ }
 }

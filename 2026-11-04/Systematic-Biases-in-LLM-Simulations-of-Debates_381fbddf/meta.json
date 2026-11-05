@@ -4,5 +4,31 @@
  "title": "Systematic-Biases-in-LLM-Simulations-of-Debates",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-11-04 21:06:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/099db141-d8b0-4d83-b325-5619731e3575.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/099db141-d8b0-4d83-b325-5619731e3575.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:30:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM simulation",
+    "systematic bias",
+    "political debate",
+    "self-fine-tuning",
+    "echo chamber",
+    "DPO",
+    "agent behavior"
+   ],
+   "field": "大语言模型行为模拟与偏见评估",
+   "innovations": [
+    "揭示LLM代理在辩论模拟中系统性遵从模型固有偏见而非身份设定的现象",
+    "提出基于自我生成数据的自动化微调方法定向操控LLM政治立场偏见",
+    "发现LLM代理违背回声室效应、趋向中和的反常行为模式"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "Hellaswag"
+   ]
+  }
+ }
 }

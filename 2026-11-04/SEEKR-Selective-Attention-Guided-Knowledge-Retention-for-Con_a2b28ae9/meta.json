@@ -4,5 +4,30 @@
  "title": "SEEKR-Selective-Attention-Guided-Knowledge-Retention-for-Con",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-11-04 21:28:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1eb8d6fa-14c5-4051-9aa9-3c3de985bcef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1eb8d6fa-14c5-4051-9aa9-3c3de985bcef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:28:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "大语言模型",
+    "知识蒸馏",
+    "注意力机制",
+    "灾难性遗忘",
+    "数据效率"
+   ],
+   "field": "大语言模型持续学习",
+   "innovations": [
+    "提出attention head重要性度量（遗忘度×任务敏感性）筛选关键头进行蒸馏",
+    "设计层次化预算分配机制控制训练成本",
+    "仅需1%回放数据即可达到现有方法10%数据的性能"
+   ],
+   "benchmarks": [
+    "TRACE",
+    "SuperNI"
+   ]
+  }
+ }
 }

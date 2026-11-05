@@ -4,5 +4,27 @@
  "title": "When-LLMs-Meet-Acoustic-Landmarks-An-Efficient-Approach-to-I",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-11-04 21:08:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bd29c86d-f770-4401-94a6-947c9ca8d319.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bd29c86d-f770-4401-94a6-947c9ca8d319.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:29:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Acoustic Landmarks",
+    "Large Language Models",
+    "Depression Detection",
+    "Multimodal Fusion",
+    "Parameter-Efficient Fine-Tuning"
+   ],
+   "field": "多模态情感计算与心理健康分析",
+   "innovations": [
+    "首次将声学地标与LLM结合用于抑郁症检测，实现高效语音-文本多模态融合",
+    "提出提示性跨模态指令微调与P-Tuning协同框架，在DAIC-WOZ上取得SOTA性能"
+   ],
+   "benchmarks": [
+    "DAIC-WOZ"
+   ]
+  }
+ }
 }

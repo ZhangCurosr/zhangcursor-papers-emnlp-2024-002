@@ -4,5 +4,31 @@
  "title": "Table-Question-Answering-for-Low-resourced-Indic-Languages",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-11-04 21:01:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/458e34f5-8883-4438-a656-ccc9ac96bfd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/458e34f5-8883-4438-a656-ccc9ac96bfd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:30:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源表格问答",
+    "数据自动生成",
+    "跨语言零样本迁移",
+    "印地语",
+    "孟加拉语",
+    "SQL2NQ",
+    "质量控制系统"
+   ],
+   "field": "低资源自然语言处理",
+   "innovations": [
+    "面向低资源语言的TableQA自动化数据生成与质量控制流水线",
+    "基于微调语义相似度模型与直方图拐点的合成SQL-NQ对质检方法",
+    "在孟加拉语与印地语上训练的开源自监督模型超越GPT-4等闭源LLM基线"
+   ],
+   "benchmarks": [
+    "BanglaTabQA",
+    "HindiTabQA"
+   ]
+  }
+ }
 }

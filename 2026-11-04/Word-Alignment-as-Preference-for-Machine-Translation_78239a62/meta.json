@@ -4,5 +4,31 @@
  "title": "Word-Alignment-as-Preference-for-Machine-Translation",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-11-04 21:12:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cb4d129c-4ef2-4dc0-b76b-5500aa5c87f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cb4d129c-4ef2-4dc0-b76b-5500aa5c87f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:30:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "幻觉",
+    "漏译",
+    "词对齐",
+    "偏好优化",
+    "DPO",
+    "LLM"
+   ],
+   "field": "大语言模型机器翻译",
+   "innovations": [
+    "首次将词对齐覆盖率分数作为偏好信号用于 LLM 基 MT 的幻觉/漏译缓解",
+    "全自动词对齐偏好数据构造流水线 WAP（多工具翻译→覆盖率评分→三层过滤→DPO 优化）",
+    "提出难例选取 + GPT-4 覆盖率打分的幻觉/漏译评估方案"
+   ],
+   "benchmarks": [
+    "WMT22/21",
+    "HalOmi"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Zero-shot-Cross-Lingual-Transfer-for-Synthetic-Data-Generati",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-11-04 21:15:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c5af4977-1485-4821-acf9-e2047f9b4951.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c5af4977-1485-4821-acf9-e2047f9b4951.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:30:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grammar Error Detection",
+    "Cross-lingual Transfer",
+    "Synthetic Data Generation",
+    "Low-resource NLP",
+    "Multilingual Pre-trained Language Models"
+   ],
+   "field": "低资源多语言自然语言处理",
+   "innovations": [
+    "利用生成式mPLMs的跨语言迁移能力进行零样本多语言人工错误生成",
+    "提出两阶段微调框架，结合合成数据多样性与人工标注准确性",
+    "首次系统评估多种无标注AEG方法在多语言GED任务上的性能"
+   ],
+   "benchmarks": [
+    "MultiGED 2023 Shared Task corpora (L2)",
+    "QALB-2015 Arabic GED",
+    "MuCGEC & NLPCC18 Chinese GED",
+    "GECCC Czech L1 GED"
+   ]
+  }
+ }
 }
