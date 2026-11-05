@@ -4,5 +4,27 @@
  "title": "TOPVIEWRS-Vision-Language-Models-as-Top-View-Spatial-Reasone",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-11-04 21:00:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/35e0cf31-d12e-400e-9c53-737b71736d5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/35e0cf31-d12e-400e-9c53-737b71736d5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:38:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-语言模型",
+    "空间推理",
+    "俯视视角",
+    "benchmark",
+    "Chain-of-Thought"
+   ],
+   "field": "多模态空间理解",
+   "innovations": [
+    "定义四类渐进俯视空间推理任务",
+    "构建TOPVIEWRS多模态数据集（写实+语义地图）"
+   ],
+   "benchmarks": [
+    "TOPVIEWRS"
+   ]
+  }
+ }
 }
