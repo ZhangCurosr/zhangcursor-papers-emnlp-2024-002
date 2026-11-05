@@ -4,5 +4,33 @@
  "title": "TinyChart-Efficient-Chart-Understanding-with-Program-of-Thou",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-11-04 21:02:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9c576f6b-2744-4127-8162-991ba0acc577.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9c576f6b-2744-4127-8162-991ba0acc577.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:49:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图表理解",
+    "多模态大语言模型",
+    "Program-of-Thoughts",
+    "Visual Token Merging",
+    "高效推理",
+    "低资源部署"
+   ],
+   "field": "多模态图表理解与高效视觉编码",
+   "innovations": [
+    "提出仅 3B 参数的 TinyChart 在多个图表基准上超越 13B 模型和 GPT-4V",
+    "引入 Program-of-Thoughts 学习策略训练模型生成 Python 程序解决数值计算问题",
+    "采用 Visual Token Merging 压缩高分辨率图表的视觉 token 序列实现高效编码"
+   ],
+   "benchmarks": [
+    "ChartQA",
+    "Chart-to-Text (Pew)",
+    "Chart-to-Table",
+    "OpenCQA",
+    "ChartX-Cognition"
+   ]
+  }
+ }
 }

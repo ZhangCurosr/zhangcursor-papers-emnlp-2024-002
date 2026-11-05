@@ -4,5 +4,31 @@
  "title": "Tracking-the-perspectives-of-interacting-language-models",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-11-04 21:20:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/07758417-eff8-48dc-beb5-00996c5f573f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/07758417-eff8-48dc-beb5-00996c5f573f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:49:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language models",
+    "multi-agent systems",
+    "information diffusion",
+    "perspective space",
+    "polarization",
+    "communicaiton network"
+   ],
+   "field": "大语言模型社会行为分析",
+   "innovations": [
+    "提出基于代理数据核和CMDS的观点空间方法，实现黑盒LLM的定量观点追踪",
+    "建立LLM通信网络图模型，形式化模型间影响关系并研究不同拓扑的扩散动力学",
+    "引入iso-mirror和polarization等系统动力学度量工具，定量分析网络中断和对抗渗透"
+   ],
+   "benchmarks": [
+    "Yahoo! Answers",
+    "Databricks Dolly 15k",
+    "Pythia-410M-Deduped"
+   ]
+  }
+ }
 }

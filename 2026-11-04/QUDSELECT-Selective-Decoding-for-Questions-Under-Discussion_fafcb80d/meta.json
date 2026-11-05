@@ -4,5 +4,10 @@
  "title": "QUDSELECT-Selective-Decoding-for-Questions-Under-Discussion",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-11-04 21:08:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5ee08062-2b8c-4acf-86a4-77626b5b15d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5ee08062-2b8c-4acf-86a4-77626b5b15d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:46:24",
+  "chunks": 1
+ }
 }

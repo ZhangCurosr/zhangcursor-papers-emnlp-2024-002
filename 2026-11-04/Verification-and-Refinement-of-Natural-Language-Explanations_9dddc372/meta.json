@@ -4,5 +4,32 @@
  "title": "Verification-and-Refinement-of-Natural-Language-Explanations",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-11-04 21:24:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/180d58ce-c90d-4e20-b0c7-2a6530f09893.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/180d58ce-c90d-4e20-b0c7-2a6530f09893.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:51:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自然语言推理",
+    "解释生成与验证",
+    "神经符号系统",
+    "自动形式化",
+    "大语言模型",
+    "定理证明器",
+    "逻辑一致性"
+   ],
+   "field": "可解释AI与自然语言推理",
+   "innovations": [
+    "提出结合LLM与定理证明器的迭代框架以自动验证和精炼NLI解释",
+    "集成新大卫森事件语义与一阶逻辑以最小化自动形式化中的语义损失",
+    "引入针对定理证明器语法的迭代精炼机制以提升形式化成功率"
+   ],
+   "benchmarks": [
+    "e-SNLI",
+    "QASC",
+    "WorldTree"
+   ]
+  }
+ }
 }

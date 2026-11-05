@@ -4,5 +4,33 @@
  "title": "Thinking-Fair-and-Slow-On-the-Efficacy-of-Structured-Prompts",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-11-04 21:04:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ca74dfe3-42e5-42d0-ac1f-5e35b5655758.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ca74dfe3-42e5-42d0-ac1f-5e35b5655758.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:49:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型去偏",
+    "提示工程",
+    "公平性",
+    "黑盒去偏",
+    "System-2提示",
+    "蕴含提示"
+   ],
+   "field": "大语言模型公平性与安全",
+   "innovations": [
+    "提出基于System-2思维的三类结构化提示去偏框架（PP/SR/IP），首次在黑盒条件下系统评估提示去偏效果",
+    "提出三阶段蕴含提示（IP）方法，通过模型自生偏见解释引导去偏，显著优于前缀提示和自优化",
+    "证明角色型提示系统性优于指令型提示，且IP方法在不损害下游任务性能下达到与白盒方法相当的去偏效果"
+   ],
+   "benchmarks": [
+    "Stereoset",
+    "Regard",
+    "RealToxicityPrompts",
+    "TruthfulQA",
+    "BoolQ"
+   ]
+  }
+ }
 }

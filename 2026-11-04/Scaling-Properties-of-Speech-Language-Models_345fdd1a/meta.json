@@ -4,5 +4,34 @@
  "title": "Scaling-Properties-of-Speech-Language-Models",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-11-04 21:02:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15cc7816-fe6a-49a8-9605-0db7e5548e59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/15cc7816-fe6a-49a8-9605-0db7e5548e59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:48:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Speech Language Models",
+    "Scaling Laws",
+    "Generative Spoken Language Modeling",
+    "Textless NLP",
+    "Downstream Linguistic Evaluation",
+    "Synthetic Speech Data"
+   ],
+   "field": "语音语言模型与多模态缩放",
+   "innovations": [
+    "首次建立SLMs预训练损失与下游句法/语义性能的强相关性并推导可预测的缩放幂律",
+    "发现SLMs语言能力缩放速度比文本LLMs慢约三个数量级",
+    "提出合成因果叙事数据集STINYSTORIES并验证其对语义理解的稳定提升"
+   ],
+   "benchmarks": [
+    "BLIMP",
+    "tStoryCloze",
+    "sStoryCloze",
+    "LibriSpeech",
+    "LibriLight",
+    "Vox Populi"
+   ]
+  }
+ }
 }

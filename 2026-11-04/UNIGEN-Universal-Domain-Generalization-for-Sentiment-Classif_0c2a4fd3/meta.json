@@ -4,5 +4,36 @@
  "title": "UNIGEN-Universal-Domain-Generalization-for-Sentiment-Classif",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-11-04 21:24:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0a66da09-9267-49b3-b3bc-b97d52144482.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0a66da09-9267-49b3-b3bc-b97d52144482.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:50:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Domain Generalization",
+    "Zero-shot Dataset Generation",
+    "Contrastive Learning",
+    "Sentiment Classification",
+    "PLM-based Data Generation",
+    "Noisy Label"
+   ],
+   "field": "自然语言处理-领域泛化",
+   "innovations": [
+    "通过通用提示词实现零样本领域泛化的 UNIGEN 框架",
+    "基于伪标签重标记的生成数据软标签去噪方法",
+    "结合噪声鲁棒权重的去噪记忆银行机制"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "IMDB",
+    "Rotten Tomatoes",
+    "Amazon Products",
+    "Yelp",
+    "CR Electronics",
+    "Tweet",
+    "Amazon Review 29-domain"
+   ]
+  }
+ }
 }

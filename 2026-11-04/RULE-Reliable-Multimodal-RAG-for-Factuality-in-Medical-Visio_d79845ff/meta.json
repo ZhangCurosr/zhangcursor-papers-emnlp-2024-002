@@ -4,5 +4,30 @@
  "title": "RULE-Reliable-Multimodal-RAG-for-Factuality-in-Medical-Visio",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-11-04 21:15:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4db7900b-f644-41f2-9934-e59275e9184d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4db7900b-f644-41f2-9934-e59275e9184d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:47:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical Vision-Language Models",
+    "Retrieval-Augmented Generation",
+    "Factuality",
+    "Preference Optimization",
+    "Hallucination Mitigation",
+    "Multi-modal RAG"
+   ],
+   "field": "多模态大模型事实性增强",
+   "innovations": [
+    "基于假设检验的检索上下文数量校准策略",
+    "利用检索前后性能差异自动挖掘偏好对的知识平衡微调"
+   ],
+   "benchmarks": [
+    "IU-Xray",
+    "Harvard-FairVLMed",
+    "MIMIC-CXR"
+   ]
+  }
+ }
 }

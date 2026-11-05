@@ -4,5 +4,31 @@
  "title": "Seemingly-Plausible-Distractors-in-Multi-Hop-Reasoning-Are-L",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-11-04 21:17:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dc4c67f9-2d3e-40c9-a002-c55ecaf12ab6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/dc4c67f9-2d3e-40c9-a002-c55ecaf12ab6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:48:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多跳推理",
+    "大型语言模型",
+    "对抗评估",
+    "阅读理解",
+    "推理捷径",
+    "HotpotQA"
+   ],
+   "field": "自然语言理解与鲁棒性评估",
+   "innovations": [
+    "提出生成看似合理但错误推理链的干扰段落框架",
+    "揭示LLM受细微语义差异和完整推理链误导而非简单词汇匹配",
+    "构建基于LLM对抗的严格多跳推理评测基准"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "SubQA",
+    "DiRe"
+   ]
+  }
+ }
 }

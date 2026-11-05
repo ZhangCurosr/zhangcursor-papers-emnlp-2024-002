@@ -4,5 +4,29 @@
  "title": "VIVA-A-Benchmark-for-Vision-Grounded-Decision-Making-with-Hu",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-11-04 21:09:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ed136b7c-7ee8-453b-9fa8-4d860f5f3cfe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ed136b7c-7ee8-453b-9fa8-4d860f5f3cfe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:51:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "人类价值观",
+    "多模态决策",
+    "基准评测",
+    "具身智能",
+    "模型对齐"
+   ],
+   "field": "多模态价值观对齐与决策",
+   "innovations": [
+    "提出首个视觉 grounding 人类价值观决策基准 VIVA，设计行动-价值观-理由三级评估体系",
+    "构建基于知识蒸馏的后果预测模块（Llama3-8B+LoRA），验证预见行动后果可显著提升决策准确率",
+    "系统揭示开源 VLMs 在价值观推理上的对齐鸿沟，并提出价值观注入作为提升决策的可复用策略"
+   ],
+   "benchmarks": [
+    "VIVA"
+   ]
+  }
+ }
 }

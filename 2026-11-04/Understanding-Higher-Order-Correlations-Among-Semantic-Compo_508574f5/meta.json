@@ -4,5 +4,35 @@
  "title": "Understanding-Higher-Order-Correlations-Among-Semantic-Compo",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-11-04 21:08:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/84e2fd22-b6d5-4f1a-8b85-ae9948383d15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/84e2fd22-b6d5-4f1a-8b85-ae9948383d15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:50:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ICA",
+    "embeddings",
+    "higher-order correlation",
+    "independent component analysis",
+    "semantic interpretability",
+    "word embeddings",
+    "maximum spanning tree"
+   ],
+   "field": "词嵌入可解释性",
+   "innovations": [
+    "用高阶相关性E(Si^2 Sj^2)量化ICA组件间非独立性并解释为语义关联",
+    "构建MST可视化ICA组件语义关联全局结构",
+    "基于MST谱聚类的降维在词相似性任务上全面优于随机聚类"
+   ],
+   "benchmarks": [
+    "MEN",
+    "WS353",
+    "MTurk",
+    "RW",
+    "SimLex999",
+    "SimVerb-3500"
+   ]
+  }
+ }
 }

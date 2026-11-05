@@ -4,5 +4,31 @@
  "title": "Unsupervised-Human-Preference-Learning",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-11-04 21:13:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e81f4a51-944f-46ef-afe4-de8d4934695d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e81f4a51-944f-46ef-afe4-de8d4934695d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:50:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化语言模型",
+    "偏好学习",
+    "无监督学习",
+    "参数高效微调",
+    "提示工程",
+    "评估"
+   ],
+   "field": "个性化语言模型与偏好对齐",
+   "innovations": [
+    "提出偏好代理架构，通过小型模型生成自然语言规则引导大模型个性化输出",
+    "设计基于蒸馏的差异学习信号，从无监督数据中提取偏好规则",
+    "在多个数据集上证明该方法显著优于ICL、PEFT等基线方法"
+   ],
+   "benchmarks": [
+    "Enron-42K (Email Corpus)",
+    "New Yorker (All the News 2.0 subset)",
+    "LAMP 3U (Amazon Reviews Subset)"
+   ]
+  }
+ }
 }

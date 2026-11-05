@@ -4,5 +4,33 @@
  "title": "Understanding-Democratization-in-NLP-and-ML-Research",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-11-04 21:10:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/baeea8da-39df-494e-a666-ce35451c6e11.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/baeea8da-39df-494e-a666-ce35451c6e11.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:50:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "democratization",
+    "NLP",
+    "machine learning",
+    "democracy",
+    "bibliometric analysis",
+    "interdisciplinary engagement",
+    "conceptual analysis"
+   ],
+   "field": "NLP/ML 研究社会学与学术话语分析",
+   "innovations": [
+    "首次对 NLP/ML 顶会中 democratization 一词进行大规模混合方法概念审计，揭示其被简化为 access 的概念错位",
+    "提出 Cause-Target-Goal 三元分析框架并用于量化民主化论述的空心化程度",
+    "通过引文意图（background/methods/results）与段落位置联合指标度量跨学科参与的实质深度"
+   ],
+   "benchmarks": [
+    "ACL Anthology",
+    "ICLR",
+    "ICML",
+    "NeurIPS"
+   ]
+  }
+ }
 }
